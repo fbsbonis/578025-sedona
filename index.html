@@ -12,12 +12,10 @@
                 <img src="logo.png" alt="Логотип Visit Sedona">
             </a>
             <ul clas="site-navigation ">
-                <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
-                <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
-                <li><a href="map.html">КАРТА ШТАТА</a></li>
-            </ul>
-            <ul>
-                <li class="hotels-link"><a href="hotels.html">ГОСТИНИЦЫ</a></li>
+                <li><a href="info.html">Информация</a></li>
+                <li><a href="#">Фото и видео</a></li>
+                <li><a href="#">Карта штата</a></li>
+                <li class="hotels-link"><a href="hotels.html">Гостиницы</a></li>
             </ul>
         </nav>
     </header>
@@ -27,7 +25,7 @@
       <div class="mainpage-pic1">
           <img src="mainpage-pic1.jpeg">
       </div>
-      <section class="?"> <!--КАКОЙ УКАЗАТЬ КЛАСС?-->
+      <section class="text-block">                   <!--КАКОЙ УКАЗАТЬ КЛАСС?-->
           <p>
               <b>Седона небольшой городок в Аризоне,<br>
                  заслуживающий большего!
@@ -36,76 +34,91 @@
           <p>Рассмотрим 5 причин, по которым Седона круче Гранд Каньон!</p>
       </section>
       <section class="features">
-          <ul class="features-list">
-<!--ВОПРОС НАСТАВНИКУ - таблица из 10 лишек или из меньшего кол-ва дивов-->
-              <li class="features-item-1">                <!--1я строчка open-->
-                  <h3>Настоящий городок</h3>
-                  <span class="feature-item-middle">- №1 -</span>
-                  <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-              </li>
-              <li class="features-item-2">
-                  <img src="feature-item-2.jpeg">
+          <ul class="features-list">          <!--Основная инфа страницы open-->
+              <li class="features-item-line1">            <!--1я строчка open-->
+                  <div class="">
+                      <h3>Настоящий городок</h3>
+                      <span class="feature-item-middle">- №1 -</span>
+                      <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+                  </div>
+                  <img src="feature-item-line1.jpeg">
               </li>                                      <!--1я строчка close-->
-              <li class="features-item-3">                <!--2я строчка open-->
-                  <h3>Жильё</h3>
-                  <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-                  <img src="motel.png">
-              </li>
-              <li class="features-item-4">
-                  <h3>Еда</h3>
-                  <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-                  <img src="food.png">
-              </li>
-              <li class="features-item-5">
-                  <h3>Сувениры</h3>
-                  <p>Не только китайского, но и местного производства</p>
-                  <img src="souvenir.png">
+              <li class="feature-item-line2">             <!--2я строчка open-->
+                  <ul>
+                      <li>
+                          <div>
+                              <img src="motel.png">
+                              <h3>Жильё</h3>
+                              <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                          </div>
+                      </li>
+                      <li>
+                          <div>
+                              <img src="food.png">
+                              <h3>Еда</h3>
+                              <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                          </div>
+                      </li>
+                      <li>
+                          <div>
+                              <img src="souvenir.png">
+                              <h3>Сувениры</h3>
+                              <p>Не только китайского, но и местного производства</p>
+                          </div>
+                      </li>
+                  </ul>
               </li>                                      <!--2я строчка close-->
-              <li class="features-item-6">                <!--3я строчка open-->
-                  <img src="features-item-6.jpeg">
-              </li>
-              <li class="features-item-7">
-                  <h3>Там есть мост дьявола</h3>
-                  <span>- №2 -</span>
-                  <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+              <li class="feature-item-line3">             <!--3я строчка open-->
+                  <div>
+                      <h3>Там есть мост дьявола</h3>
+                      <span>- №2 -</span>
+                      <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                  </div>
+                  <img src="feature-item-line3.jpeg">
               </li>                                      <!--3я строчка close-->
-              <li class="features-item-8">                <!--4я строчка open-->
-                  <h3>Небольшая площаль</h3>
-                  <span>- №3 -</span>
-                  <p>Все достопримечательности находятся очень близко</p>
-              </li>
-              <li class="features-item-9">
-                  <h3>Красивая дорога</h3>
-                  <span>- №4 -</span>
-                  <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-              </li>
-              <li class="features-item-10">
-                  <h3>Мало туристов</h3>
-                  <span>- №5 -</span>
-                  <p>Большинство едет в Гранд-Каньон и толпится там</p>
+              <li class="feature-item-line4">             <!--4я строчка open-->
+                  <ul>
+                      <li>
+                          <h3>Небольшая площаль</h3>
+                          <span>- №3 -</span>
+                          <p>Все достопримечательности находятся очень близко</p>
+                      </li>
+                      <li>
+                          <h3>Красивая дорога</h3>
+                          <span>- №4 -</span>
+                          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                      </li>
+                      <li>
+                          <h3>Мало туристов</h3>
+                          <span>- №5 -</span>
+                          <p>Большинство едет в Гранд-Каньон и толпится там</p>
+                      </li>
+                  </ul>
               </li>                                      <!--4я строчка close-->
-          </ul>
+          </ul>                              <!--Основная инфа страницы close-->
       </section>
       <section class="interest">                         <!--Заинтересовались-->
-          <div>
+          <div>                          <!--Див лишний, пока не стал убирать-->
               <h2>Заинтересовались?</h2>
               <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие
              предложения гостиниц в Седоне</p>
           </div>
-          <div>                                                     <!--Карта-->
-              <img src="map.jpeg">
+          <div class="modal modal-form">             <!--Тут ДИВ или Сектион?-->
+              <button class="button-find-hotels">
+              <!--ТУТ БУДЕТ ФОРМА-->
           </div>
       </section>
+      <div>                                                         <!--Карта-->
+          <img src="map.jpeg">
+      </div>
     </main>
     <footer class="main-footer">
         <b>#VISITSEDONA</b>
-        <div class="footer-social">
-            <ul>
+            <ul class="footer-social">
                 <li><a href="#"><img src="twit.png">Твиттер</a></li>
                 <li><a href="#"><img src="facebook.png">Фейсбук</a></li>
                 <li><a href="#"><img src="youtube.png">Ютюб</a></li>
             </ul>
-        </div>
         <p>
             <b>WEBSITE BY</b>
             <a href="htmlacademy.ru">
