@@ -3,88 +3,124 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <h1 class="visually-hidden">СТРАНИЦА С АПАРТАМЕНТАМИ</h1>
+    <h1 class="visually-hidden">Страница с апартаментами</h1>
 </head>
 <body>
 <!--HEADER HERE-->
     <header cass="main-header">
         <nav class="main-navigation">
-            <a class="index-logo">
+            <a class="index-logo" href="index.html">
                 <img src="logo.png" alt="Логотип Visit Sedona">
             </a>
             <ul clas="site-navigation ">
-                <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
-                <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
-                <li><a href="map.html">КАРТА ШТАТА</a></li>
-            </ul>
-            <ul>
-                <li class="hotels-link"><a href="hotels.html">ГОСТИНИЦЫ</a></li>
+                <li><a href="info.html">Информация</a></li>
+                <li><a href="#">Фото и видео</a></li>
+                <li><a href="#">Карта штата</a></li>
+                <li class="hotels-link"><a href="hotels.html">Гостиницы</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2 class="visually-hidden">ФИЛЬТР</h2>
+        <h2 class="visually-hidden">Фильтр</h2>
+
         <!--
         <div class="forma">
           ФОРМА ФИЛЬТРА ПО НЕДВИЖКе
         </div>
         -->
-        <h2 class="visually-hidden">СПИСОК АПАРТАМЕНТОВ</h2>
-        <ul class="result-of-filter">
-            <li>НАЙДЕНО: 3</li>
-        </ul>
-        <ul class="breadcrumbs">
-            <li>Сортировка</li>
-            <li class="breadcrumbs-curent"><a>По цене</a></li>
-            <li><a href="#">По типу</a></li>
-            <li><a href="#">По рейтингу</a></li>
-            <li class="arrow-up"><a>Стрелка вверх</a></<li>
-            <li class="arrow-down"><a href="#">Стрелка вниз</a></<li>
-        </ul>
-        <section class="amara-resort">
-            <img src="amara.jpeg" alt="Амара" width="" height="">
-            <h3>AMARA RESORT & SPA</h3>
-            <img src="rating-5-star.png">
-            <span>Гостиница</span><span>От 4000 р.</span>
-            <a class="button button-blue" href="about-amara.html">Подробнее</a>
-            <a class="button button-brown" href="to-book.html">Забронировать</a>
-            <p class="rating">Рейтинг: 8,5</p>
+        <section class="filter-section">                <!--ФИЛЬТР ФОРМА OPEN-->
+            <div class="infrastructure">
+                <h3 class="visuaaly-hidden">ИНФРАСТРУКТУРА</h3>
+                <!--Тут будет форма-фильтр ИНФРАСТРУКТУРА-->
+            </div>
+            <div class="housing-type">
+                <h3 class="visuaaly-hidden">ТИП ЖИЛЬЯ</h3>
+                <!--Тут будет форма-фильтр ТИП ЖИЛЬЯ-->
+            </div>
+            <div class="cost-of-housing">
+                <h3 class="visuaaly-hidden">СТОИМОСТЬ В СУТКИ</h3>
+                <!--Тут будет форма-фильтр СТОИМОСТЬ ЖИЛЬЯ-->
+            </div>
+        </section>                                     <!--ФИЛЬТР ФОРМА CLOSE-->
+
+        <section class="found-and-breadcrumbs">
+            <ul class="result-of-filter">
+                <li>Найдено: 3</li>
+            </ul>
+            <h3>Сортировка</h3>
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs-curent"><a>По цене</a></li>
+                <li><a href="#">По типу</a></li>
+                <li><a href="#">По рейтингу</a></li>
+                <li class="arrow-up"><a>Стрелка вверх</a></<li>
+                <li class="arrow-down"><a href="#">Стрелка вниз</a></<li>
+            </ul>
         </section>
 
-        <section class="desert-quail">
-            <img src="desert.jpeg" alt="Десерт" width="" height="">
-            <h3>DESERT QUAIL INN</h3>
-            <img src="rating-3-star.png">
-            <span>Мотель</span><span>От 3000 р.</span>
-            <a class="button button-blue" href="about-desort.html">Подробнее</a>
-            <a class="button button-brown" href="to-book.html">Забронировать</a>
-            <p class="rating">Рейтинг: 8,9</p>
-        </section>
 
-        <section class="villas-at-poco">
-            <img src="villas.jpeg" alt="Виллас" width="" height="">
-            <h3>VILLAS AT POCO DIABLO</h3>
-            <img src="rating-2-star.png">
-            <span>Апартаменты</span><span>От 2000 р.</span>
-            <a class="button button-blue" href="about-villas.html">Подробнее</a>
-            <a class="button button-brown" href="to-book.html">Забронировать</a>
-            <p class="rating">Рейтинг: 9,2</p>
-        </section>
+
+
+
+
+
+        <section class="main-block">         <!--РЕЗУЛЬТАТ ФИЛЬТРА OPEN-->
+          <h2 class="visually-hidden">Список апартаментов</h2>
+            <ul class="resul-of-filter">
+                <li class="amara-resort">
+                    <img src="amara.jpeg" alt="Амара" width="" height="">
+                    <div>
+                        <h3>AMARA RESORT & SPA</h3>
+                        <span>Гостиница</span><span>От 4000 р.</span>
+                        <a class="button button-blue" href="about-amara.html">Подробнее</a>
+                        <a class="button button-brown" href="to-book.html">Забронировать</a>
+                    </div>
+                    <div>
+                        <img src="rating-5-star.png">
+                        <p class="rating">Рейтинг: 8,5</p>
+                    </div>
+                </li>
+                <li class="desert-quail">
+                    <img src="desert.jpeg" alt="Десерт" width="" height="">
+                    <div>
+                        <h3>DESERT QUAIL INN</h3>
+                        <span>Мотель</span><span>От 3000 р.</span>
+                        <a class="button button-blue" href="about-desort.html">Подробнее</a>
+                        <a class="button button-brown" href="to-book.html">Забронировать</a>
+                    </div>
+                        <img src="rating-3-star.png">
+                        <p class="rating">Рейтинг: 8,9</p>
+                    <div>
+                    </div>
+                </li>
+                <li class="villas-at-poco">
+                    <img src="villas.jpeg" alt="Виллас" width="" height="">
+                    <div>
+                        <h3>VILLAS AT POCO DIABLO</h3>
+                        <span>Апартаменты</span><span>От 2000 р.</span>
+                        <a class="button button-blue" href="about-villas.html">Подробнее</a>
+                        <a class="button button-brown" href="to-book.html">Забронировать</a>
+                    </div>
+                    <div>
+                      <img src="rating-2-star.png">
+                      <p class="rating">Рейтинг: 9,2</p>
+                    </div>
+                </li>
+            </ul>
+        </section>                                <!--РЕЗУЛЬТАТ ФИЛЬТРА CLOSE-->
     </main>
     <footer class="main-footer">
-          <b>#VISITSEDONA</b>
-          <div class="footer-social">
-              <ul>
-                  <li><a href="#"><img src="twit.png">Твиттер</a></li>
-                  <li><a href="#"><img src="facebook.png">Фейсбук</a></li>
-                  <li><a href="#"><img src="youtube.png">Ютюб</a></li>
-              </ul>
-          </div>
-          <p>
-              <b>WEBSITE BY</b>
-              <a href="htmlacademy.ru">
-                  <img src="htmlacademy.png">
-              </a>
-          </p>
+        <b>#VISITSEDONA</b>
+            <ul class="footer-social">
+                <li><a href="#"><img src="twit.png">Твиттер</a></li>
+                <li><a href="#"><img src="facebook.png">Фейсбук</a></li>
+                <li><a href="#"><img src="youtube.png">Ютюб</a></li>
+            </ul>
+        <p>
+            <b>WEBSITE BY</b>
+            <a href="htmlacademy.ru">
+                <img src="htmlacademy.png">
+            </a>
+        </p>
     </footer>
-</body>
+  </body>
+</html>
