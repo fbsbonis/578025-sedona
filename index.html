@@ -107,13 +107,13 @@
              предложения гостиниц в Седоне</p>
           </div>
           <div class="modal modal-form">             <!--Тут ДИВ или Сектион?-->
-              <button class="button-find-hotels">
+              <a href="#" class="button-find-hotels">Поиск гостиницы в Седоне</a>
               <h3>Поиск гостиницы в Седоне</h3>
               <form>
-                Дата заезда:<input type="date" value="" placeholder="24 апреля 2017">
-                Дата выезда:<input type="date" value="" placeholder="4 июля 2017"><br>
-                Взрослые:<input type="number" value="" min="0" placeholder="2">
-                Дети:<input type="number" value="" min="0" placeholder="0"><br>
+                <p><label for="date-coming">Дата заезда:</label><input type="date" id="date-coming" value="" placeholder="24 апреля 2017"></p>
+                <p><label for="date-leaving">Дата выезда:</label><input type="date" id="date-leaving" value="" placeholder="4 июля 2017"></p>
+                <p><label for="adult">Взрослые:</label><input type="number" id="adult" value="" min="0" placeholder="2"></p>
+                <p><label for="child">Дети:</label><input type="number" id="child" value="" min="0" placeholder="0"></p>
                 <input type="submit" class="button button-find" value="Найти">
               </form>
           </div>
