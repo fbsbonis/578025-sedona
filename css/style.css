@@ -1,0 +1,129 @@
+
+html {
+  font-family: PT Sans;
+  text-transform: uppercase;
+}
+.main-navigation a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+}
+.main-navigation a:hover {
+  color: #81B3D2;
+}
+.breadcrumbs a {
+  line-height: 18px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 1px solid #81B3D2;
+}
+.breadcrumbs a:hover {
+  color: #81B3D2;
+}
+/* ПОДЧЕРКИВАНИЕ ПО ЦЕНЕ НЕ ПОНЯЛ КАК УБРАТЬ
+.breadcrumbs-current a{
+  border-bottom: 0px;
+}
+*/
+h3 {
+  line-height: 26px;
+  font-size: 21px;
+  font-weight: bold;
+}
+.sort {
+  line-height: 18px;
+  font-size: 12px;
+}
+.bold-text {
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 21px;
+}
+.norm-text  {
+    line-height: 26px;
+    font-size: 14px;
+}
+.interest-headline {
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 30px;
+  text-align: center;
+}
+.interest-text {
+  line-height: 24px;
+  font-size: 14px;
+  text-align: center;
+}
+footer b {
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 21px;
+  text-align: center;
+}
+.visually-hidden {
+  display: none;
+}
+.hotel-info {
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 14px;
+}
+.button {
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 21px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.button-blue {
+  padding: 1.5px 13px 4.5px 17px;
+  background-color: #81B3D2;
+}
+.button-blue:hover {
+  background-color: #669EC0;
+}
+.button-brown {
+  padding: 1.5px 14px 4.5px 16px;
+  background-color: #766357;
+}
+.button-brown:hover {
+  background-color: #604E43;
+}
+.hotel-form {
+  display: none;
+}
+/*
+ СКРЫЛ PopUp но надо проверить CSS.
+*/
+.button-find-hotels {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 21px;
+  padding: 28.5px 124px;
+  background-color: #766357;
+  width: 568px;
+  text-align: center;
+  color: #ffffff;
+}
+.button-find-hotels:hover {
+  background-color: #604E43;
+}
+.hotel-form p {
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 14px;
+}
+/*Скрытый PopUp*/
+
+.social {
+  padding: 10px;
+  background-color: #81B3D2;
+}
+.social:hover {
+  background-color: #669EC0;
+}

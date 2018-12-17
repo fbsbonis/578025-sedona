@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
 
   </head>
   <body>
@@ -108,14 +108,14 @@
       </section>
       <section class="interest">                         <!--Заинтересовались-->
           <div>                          <!--Див лишний, пока не стал убирать-->
-              <h2>Заинтересовались?</h2>
+              <p class="interest-headline">Заинтересовались?</p>
               <p class="interest-text">Укажите предполагаемые даты поездки,<br>
                  и мы покажем вам лучшие
              предложения гостиниц в Седоне</p>
           </div>
           <div class="modal modal-form">             <!--Тут ДИВ или Сектион?-->
-              <a href="#" class="button-find-hotels">Поиск гостиницы в Седоне</a>
               <h3 class="visually-hidden">Поиск гостиницы в Седоне</h3>
+              <a href="#" class="button-find-hotels">Поиск гостиницы в Седоне</a>
               <form class="hotel-form">
                 <p><label for="date-coming">Дата заезда:</label><input class="date" type="date" id="date-coming" value="" placeholder="24 апреля 2017"></p>
                 <p><label for="date-leaving">Дата выезда:</label><input class="date" type="date" id="date-leaving" value="" placeholder="4 июля 2017"></p>
@@ -130,14 +130,14 @@
       </div>
     </main>
     <footer class="main-footer">
-        <b>#VISITSEDONA</b>
+        <p class="bold-text">#VISITSEDONA</p>
             <ul class="footer-social">
-                <li><a href="#"><img src="img/twitter.png"><span class="visually-hidden">Твиттер</span></a></li>
-                <li><a href="#"><img src="img/facebook.png"><span class="visually-hidden">Фейсбук</span></a></li>
-                <li><a href="#"><img src="img/youtube.png"><span class="visually-hidden">Ютюб</span></a></li>
+                <li><a href="#"><img src="img/twitter.png" class="social"><span class="visually-hidden">Твиттер</span></a></li>
+                <li><a href="#"><img src="img/facebook.png" class="social"><span class="visually-hidden">Фейсбук</span></a></li>
+                <li><a href="#"><img src="img/youtube.png" class="social"><span class="visually-hidden">Ютюб</span></a></li>
             </ul>
         <p>
-            <b>WEBSITE BY</b>
+            <span class="norm-text">WEBSITE BY</span>
             <span class="visually-hidden">Логотип Академии</span>
             <a href="htmlacademy.ru">
                 <img src="img/copyright-logo.png">
