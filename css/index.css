@@ -1,0 +1,67 @@
+html {
+  font-family: PT Sans;
+  text-transform: uppercase;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+}
+.bold-text {
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 21px;
+  text-align: center;
+}
+.norm-text  {
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+}
+h2 {
+  font-weight: bold;
+  line-height: 24px;
+  font-size: 30px;
+  text-align: center;
+}
+.interest-text {
+  line-height: 24px;
+  font-size: 14px;
+  text-align: center;
+}
+footer b {
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 21px;
+  text-align: center;
+}
+.visually-hidden {
+  display: none;
+}
+h3 {
+  font-weight: bold;
+  line-height: 26px;
+  font-size: 21px;
+  text-align: center;
+}
+.hotel-info {
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 14px;
+}
+.button {
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 21px;
+  font-size: 14px;
+}
+.button-blue {
+  padding: 1.5px 13px 4.5px 17px;
+  background-color: #81B3D2;
+}
+.button-brown {
+  padding: 1.5px 14px 4.5px 16px;
+  background-color: #766357;
+}
