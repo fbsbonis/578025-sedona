@@ -13,6 +13,25 @@ html {
 .main-navigation a:hover {
   color: #81B3D2;
 }
+.main-navigation {padding: 20px;}
+.main-navigation li {
+  display: inline-block;
+  margin: 15px 56px;
+
+}
+.index-logo {
+  display: inline-block;
+  float: left;}
+
+/*CSS ДЛЯ ФОРМЫ ФИЛЬТРА*/
+.inline-block {
+  display: inline-block;
+}
+.found-and-breadcrumbs {background-color: blue;}
+.found-and-breadcrumbs li {
+  display: inline-block;
+}
+
 .breadcrumbs a {
   line-height: 18px;
   font-size: 12px;
@@ -37,6 +56,7 @@ h3 {
   line-height: 18px;
   font-size: 12px;
 }
+.text-block {text-align: center;}
 .bold-text {
   font-weight: bold;
   line-height: 26px;
@@ -51,6 +71,7 @@ h3 {
   line-height: 24px;
   font-size: 30px;
   text-align: center;
+
 }
 .interest-text {
   line-height: 24px;
@@ -98,8 +119,9 @@ footer b {
 /*
  СКРЫЛ PopUp но надо проверить CSS.
 */
+.modal-form {text-align: center;}
 .button-find-hotels {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   font-weight: bold;
   line-height: 26px;
@@ -127,3 +149,4 @@ footer b {
 .social:hover {
   background-color: #669EC0;
 }
+.footer-social li {display: inline-block;}
