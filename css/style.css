@@ -3,6 +3,10 @@ html {
   font-family: PT Sans;
   text-transform: uppercase;
 }
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
 .main-navigation a{
   text-decoration: none;
   color: black;
@@ -13,16 +17,44 @@ html {
 .main-navigation a:hover {
   color: #81B3D2;
 }
-.main-navigation {padding: 20px;}
+.main-navigation {
+  height: 40px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
 .main-navigation li {
   display: inline-block;
-  margin: 15px 56px;
-
+  margin: 15px 0;
+  vertical-align: center;
+}
+.main-navigation li:nth-child(2) {
+  margin-left: ;
+}
+.main-navigation li:nth-child(2) {
+  margin-right:
 }
 .index-logo {
   display: inline-block;
-  float: left;}
+  float: left;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 
+}
+.main {
+  position: relative;
+}
+.mainpage-pic2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 132px;
+}
+.polygon {
+  position: absolute;
+  top: 831px;
+}
 /*CSS ДЛЯ ФОРМЫ ФИЛЬТРА*/
 .inline-block {
   display: inline-block;
@@ -56,7 +88,10 @@ h3 {
   line-height: 18px;
   font-size: 12px;
 }
-.text-block {text-align: center;}
+.text-block {
+  text-align: center;
+  margin-top: 41px;
+}
 .bold-text {
   font-weight: bold;
   line-height: 26px;
@@ -66,6 +101,39 @@ h3 {
     line-height: 26px;
     font-size: 14px;
 }
+
+
+.features-item-line1 {
+  display: flex;
+  background-color: #cccccc;
+  justify-content: space-between;
+
+}
+.info-block-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  padding: 45px;
+}
+.info-block-1 p {
+  text-align: center; /* правильно выправил текст по середине? */
+}
+.flex-photo {align-self: center;}
+/* НАДО РАСТЯНУТЬ КАРТИНКУ ФЕЛКС-ЭЛЕМЕНТ */
+
+
+
+
+
+
+
+
+
+
+
+
 .interest-headline {
   font-weight: bold;
   line-height: 24px;
@@ -141,12 +209,25 @@ footer b {
   font-size: 14px;
 }
 /*Скрытый PopUp*/
-
-.social {
-  padding: 10px;
-  background-color: #81B3D2;
+.main-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.footer-social {
+  display: flex;
+}
+a .social {
+  display: flex;
+  width: 46px;
+  height: 48px;
+  background-color: #81B3D2;
+  margin: 0 5px;
+  align-items: center;
+  justify-content: center;
+}
+
 .social:hover {
   background-color: #669EC0;
 }
-.footer-social li {display: inline-block;}
+ul {list-style: none;}
